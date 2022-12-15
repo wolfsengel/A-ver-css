@@ -1,6 +1,7 @@
 .container{
     align-content: center;
     width: 450px;
+    height: 500px;
     display: flex;
     border-radius: 1cm;
     position: absolute;
@@ -9,12 +10,13 @@
     flex-direction: column;
 }
 .container img{
+    height:200px;
     width:100%;
     border-radius: 1cm 1cm 0 0;
 }
 .container h1{
     text-align: center;
-    margin: 1cm;
+    margin: 0.5cm;
     color:white;
 }
 .container p{
@@ -22,7 +24,7 @@
     color: wheat;
     text-align: center;
 }
-.container button{
+.container .btn{
     border-radius: 1cm;
     border-color: aliceblue;
     align-self: center;
@@ -31,24 +33,34 @@
     color: aliceblue;
     background-color: transparent;
 }
-.container button:hover{
+.container .btn:hover{
     border-color: black;
     color: black;
     border-radius: 1cm;
     background-color: white;
 }
+.container .price .pric2 button{
+    border-radius: 1cm;
+    border-color: aliceblue;
+    align-self: center;
+    width: 2cm;
+    margin: 1cm;
+    color: aliceblue;
+    background-color: transparent;
 
-.container .price{
+}
+
+.price{
     align-items: center;
     border-radius: 1cm;
-    margin: 1cm;
+    margin: 0.5cm;
     display: flex;
     background-color: rgb(6, 6, 104);
 }
-.container .price img{
-    margin: 1cm;
-    width: 100px;
-    height: 100px;
+.price img{
+    margin: 0.5cm;
+    width: 50px;
+    height: 50px;
 }
 
 body{
