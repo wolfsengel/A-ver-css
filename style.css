@@ -21,7 +21,7 @@
 }
 .container p{
     margin: 1cm;
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .container .btn{
@@ -41,12 +41,19 @@
 }
 .container .price .pric2 button{
     border-radius: 1cm;
-    border-color: aliceblue;
+    border-color: rgb(0, 0, 0);
     align-self: center;
     width: 2cm;
-    margin: 1cm;
-    color: aliceblue;
+    margin: 0.5cm;
+    color: rgb(0, 0, 0);
     background-color: transparent;
+
+}
+.container .price .pric2 button:hover{
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    border-radius: 1cm;
+    background-color: white;
 
 }
 
@@ -55,12 +62,24 @@
     border-radius: 1cm;
     margin: 0.5cm;
     display: flex;
-    background-color: rgb(6, 6, 104);
+    flex-direction:row;
+    background-color: rgb(255, 255, 255);
 }
 .price img{
     margin: 0.5cm;
     width: 50px;
     height: 50px;
+}
+.pric2{
+    margin-left: 2cm;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.pric2 p{
+    
+    margin: 0;
 }
 
 body{
