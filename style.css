@@ -1,0 +1,63 @@
+.container{
+    align-content: center;
+    width: 450px;
+    display: flex;
+    border-radius: 1cm;
+    position: absolute;
+    top: 4cm;
+    background-color: rgb(15, 2, 50);
+    flex-direction: column;
+}
+.container img{
+    width:100%;
+    border-radius: 1cm 1cm 0 0;
+}
+.container h1{
+    text-align: center;
+    margin: 1cm;
+    color:white;
+}
+.container p{
+    margin: 1cm;
+    color: wheat;
+    text-align: center;
+}
+.container button{
+    border-radius: 1cm;
+    border-color: aliceblue;
+    align-self: center;
+    width: 2cm;
+    margin: 1cm;
+    color: aliceblue;
+    background-color: transparent;
+}
+.container button:hover{
+    border-color: black;
+    color: black;
+    border-radius: 1cm;
+    background-color: white;
+}
+
+.container .price{
+    align-items: center;
+    border-radius: 1cm;
+    margin: 1cm;
+    display: flex;
+    background-color: rgb(6, 6, 104);
+}
+.container .price img{
+    margin: 1cm;
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/UWU.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
